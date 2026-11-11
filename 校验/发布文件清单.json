@@ -56,8 +56,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6372,
-    "sha256": "5454c2f4e2ef2df006df3a8aa4838490945e43546722bbd6629d96b09b12184d"
+    "bytes": 6554,
+    "sha256": "87c2e640c7c2e6b4173ab7ab1501beb7dd872907413139a44ebf38ee4bb2f06f"
   },
   {
     "path": "主教程.md",
@@ -246,8 +246,8 @@
   },
   {
     "path": "校验/发布验证说明.md",
-    "bytes": 2917,
-    "sha256": "4a95b6ef081d01a6a3bd712b60b08e425e0a484863a470225e4118967bb1b2fa"
+    "bytes": 2967,
+    "sha256": "d006cca43929282e8269258f3d42dfe90f4e3bcc57b4223f6dbb8a3d97619fd8"
   },
   {
     "path": "校验/外部归档来源.json",
@@ -286,8 +286,8 @@
   },
   {
     "path": "校验/照片检查.json",
-    "bytes": 7254,
-    "sha256": "bc1da4a2439591279af5160745ebe8aadeb075d625cbbc0c1d037e0e15a3896d"
+    "bytes": 7848,
+    "sha256": "b73f9552dd08806f1855807dd34da11b7b67253a9dfe1a7357d0b33e786ef07a"
   },
   {
     "path": "校验/脱敏与链接复核.json",
@@ -29526,8 +29526,8 @@
   },
   {
     "path": "照片/README.md",
-    "bytes": 1320,
-    "sha256": "c0764f327a27c82e979f2bb5bcd9f87a926b8455afb721a457b7f1f323dd3034"
+    "bytes": 1370,
+    "sha256": "74dbfc7c13f7346859011e93a141f837a4219ebe6afbe0565f925f60a548dc1f"
   },
   {
     "path": "许可证/AirportBZ-LICENSE",

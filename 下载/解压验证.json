@@ -2,15 +2,15 @@
   "assets": [
     {
       "file": "ThinkBook-16Plus-255H-资料与源码-20261111.zip",
-      "bytes": 78755441,
-      "sha256": "7db22a5b5a04a9e30a199f2014626f206a93b9fb498280981f6b509f6773830b",
+      "bytes": 78755589,
+      "sha256": "1202b2bcf7e95e06ed5733f12f9afa1cb730b904f739650f240e3a5437b1a319",
       "unpackedFiles": 5959,
       "allBytesRereadMatched": true
     },
     {
       "file": "ThinkBook-16Plus-255H-过程照片-20261111.zip",
-      "bytes": 38048151,
-      "sha256": "7fd7ee6bf7828db330ab18c9fa5ebf997608e9a5c87ee654aa023f1a3ba32608",
+      "bytes": 38048217,
+      "sha256": "ee2b8cd85892759b7a9ee7ab9840272488630e1d67f7f188fe684b20c52e8411",
       "unpackedFiles": 11,
       "allBytesRereadMatched": true
     }

@@ -27,7 +27,9 @@
     ],
     "trailingBytesRemoved": 429813,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261103235027.jpg",
@@ -57,7 +59,9 @@
     ],
     "trailingBytesRemoved": 346053,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261103235615.jpg",
@@ -87,7 +91,9 @@
     ],
     "trailingBytesRemoved": 359012,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104001100.jpg",
@@ -117,7 +123,9 @@
     ],
     "trailingBytesRemoved": 323483,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104001113.jpg",
@@ -147,7 +155,9 @@
     ],
     "trailingBytesRemoved": 364822,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104010518.jpg",
@@ -177,7 +187,9 @@
     ],
     "trailingBytesRemoved": 297874,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104013353.jpg",
@@ -207,7 +219,9 @@
     ],
     "trailingBytesRemoved": 344557,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104013524.jpg",
@@ -237,7 +251,9 @@
     ],
     "trailingBytesRemoved": 1002490,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   },
   {
     "file": "照片/IMG20261104042438.jpg",
@@ -267,6 +283,8 @@
     ],
     "trailingBytesRemoved": 1032186,
     "endsAtJPEGEndOfImage": true,
-    "exifAndXmpSignaturesAbsent": true
+    "exifAndXmpSignaturesAbsent": true,
+    "baseJPEGOnly": true,
+    "auxiliaryHDRDataPreserved": false
   }
 ]
