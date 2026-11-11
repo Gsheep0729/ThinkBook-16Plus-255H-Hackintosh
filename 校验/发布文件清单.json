@@ -246,8 +246,8 @@
   },
   {
     "path": "校验/发布验证说明.md",
-    "bytes": 2874,
-    "sha256": "fd275a882a8db73c59667eed3b4ac3c364f7a4448365f247a03e02f5212968ce"
+    "bytes": 2917,
+    "sha256": "4a95b6ef081d01a6a3bd712b60b08e425e0a484863a470225e4118967bb1b2fa"
   },
   {
     "path": "校验/外部归档来源.json",
@@ -286,8 +286,8 @@
   },
   {
     "path": "校验/照片检查.json",
-    "bytes": 2348,
-    "sha256": "5bab96da36e268ced26b30043631efc9819f7ba7805d6d2d88966e7e435ce3ee"
+    "bytes": 7254,
+    "sha256": "bc1da4a2439591279af5160745ebe8aadeb075d625cbbc0c1d037e0e15a3896d"
   },
   {
     "path": "校验/脱敏与链接复核.json",
@@ -29481,53 +29481,53 @@
   },
   {
     "path": "照片/IMG20261103234954.jpg",
-    "bytes": 5414856,
-    "sha256": "0a0f86e821eb88c525e762387b6f3918c3ad97d64292d94705b3ed0db9a2d201"
+    "bytes": 4867862,
+    "sha256": "183c0c2c9744a73dd77c4b3ff789bc012e6688b9398fa7ca0a62ac7bfda421b5"
   },
   {
     "path": "照片/IMG20261103235027.jpg",
-    "bytes": 2894788,
-    "sha256": "10a92cd6bee3ae8e156ea54ea828e3438170276ab60472f7a7176f65811da7eb"
+    "bytes": 2471942,
+    "sha256": "b7a1bd6a66251509263ec9d5a5e18ae6bd4c9ac1a802778588cc7318f35eac72"
   },
   {
     "path": "照片/IMG20261103235615.jpg",
-    "bytes": 2948201,
-    "sha256": "b428dbd534c50f774af7606e178b8fda70f528fb528a0d9af97eac23623eceb1"
+    "bytes": 2512433,
+    "sha256": "83821265170520e11ba835991c02967e73bbaff86ac618a5bd9be162f78e174e"
   },
   {
     "path": "照片/IMG20261104001100.jpg",
-    "bytes": 4695987,
-    "sha256": "6e0d0b0614fc1bb35c4631d25a332e24c01fcdb7791c0455c25132a8bf7e430d"
+    "bytes": 4258595,
+    "sha256": "ac50c05d411f8d81f900f03468cdc195502d23eff07956c808a77879772480ea"
   },
   {
     "path": "照片/IMG20261104001113.jpg",
-    "bytes": 2982945,
-    "sha256": "74af10539519af7d2e51ac51db78d78161b80d88414fad8da559b08453e8241d"
+    "bytes": 2546843,
+    "sha256": "4e72a616dffd24bca3dbedb6435aaac0c89da1c6cd9fbebddb218efabe71d7bf"
   },
   {
     "path": "照片/IMG20261104010518.jpg",
-    "bytes": 4500371,
-    "sha256": "661b60eac994a2b55200ae8b8cfd08c66dcf405ab76a2690c87717e60b2aa7da"
+    "bytes": 4088010,
+    "sha256": "541a47a81b67ab37aadc188af239a2db0b5ef8bb8b694b7282775ca589d8e617"
   },
   {
     "path": "照片/IMG20261104013353.jpg",
-    "bytes": 4562656,
-    "sha256": "069d8b6d7f93e4244d615633026c6e076635ea7bb266a365b2c7651e10ad71e2"
+    "bytes": 4100110,
+    "sha256": "017c18409b5791f97356257710bc6bb04236aa955136c97b2b139a7cd248f333"
   },
   {
     "path": "照片/IMG20261104013524.jpg",
-    "bytes": 8161323,
-    "sha256": "3cd3cfbca4981d9e697e69e0cde6419b13d689f9ef32d68347703faa9d769e43"
+    "bytes": 7044404,
+    "sha256": "b109c1b219a045c5f0d59caac527a1bb65f783fc239f9a7b20cde2ce4d7b1dcd"
   },
   {
     "path": "照片/IMG20261104042438.jpg",
-    "bytes": 7580607,
-    "sha256": "b65d4be73e99b08c08ae005ed034079af63c9df5497714164fc57d6c8bb714ae"
+    "bytes": 6434651,
+    "sha256": "978b769857a35cbad01f6be64acb12d9bdbd63c847624d92bbe8c95fe4a08d46"
   },
   {
     "path": "照片/README.md",
-    "bytes": 1268,
-    "sha256": "bab9661c9e7184f20abcb87ebf62257e5be454c2d146dcb7d69decf1ca088313"
+    "bytes": 1320,
+    "sha256": "c0764f327a27c82e979f2bb5bcd9f87a926b8455afb721a457b7f1f323dd3034"
   },
   {
     "path": "许可证/AirportBZ-LICENSE",
