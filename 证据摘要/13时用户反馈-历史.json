@@ -1,0 +1,13 @@
+{
+  "TrackpadMoveClickTwoFingerScroll": "用户确认触摸板正常",
+  "TrackpadDirectionInitialFollowup": "方向没有变化",
+  "TrackpadDirectionAfterSystemSettings": "现在方向符合了",
+  "BacklightSliderAndKeys": "滑块和按键都有效",
+  "Audio": "仍没有音频输出设备",
+  "WifiConnectionUserReply": "成功连接,但是好像不是很稳定.",
+  "EthernetCableTestUserReply": null,
+  "WifiSymptomUserReply": "保持连接，但卡顿或速度慢",
+  "WifiUserReportedAssociationSuccess": true,
+  "WifiInterfaceBoundTrafficVerified": null,
+  "WifiStabilityAccepted": false
+}

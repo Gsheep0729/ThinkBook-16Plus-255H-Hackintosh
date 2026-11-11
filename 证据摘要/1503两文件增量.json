@@ -1,0 +1,20 @@
+{
+  "action": "apply",
+  "groups": [
+    "bluetooth",
+    "usb"
+  ],
+  "changed": [
+    "OC/Kexts/IntelBluetoothFirmware.kext/Contents/MacOS/IntelBluetoothFirmware",
+    "OC/Kexts/UTBDefault.kext/Contents/Info.plist"
+  ],
+  "fileCount": 163,
+  "configSHA256": "f3140c7ce8423f423c2775a001de816462759ccbf2950a77f5399f1196323eb4",
+  "configFieldDiff": {},
+  "otherFilesUnchanged": true,
+  "allDirectoriesPreserved": true,
+  "archivesReadBack": true,
+  "validator": "1.0.9",
+  "espUnmounted": true,
+  "evidenceStage": "15:03写入阶段历史；后续有主题事务及18:45验收"
+}

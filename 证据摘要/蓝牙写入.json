@@ -1,0 +1,23 @@
+{
+  "action": "apply",
+  "changedFiles": [
+    "OC/Kexts/BlueToolFixup.kext/Contents/Info.plist",
+    "OC/Kexts/BlueToolFixup.kext/Contents/MacOS/BlueToolFixup",
+    "OC/Kexts/IntelBTPatcher.kext/Contents/Info.plist",
+    "OC/Kexts/IntelBTPatcher.kext/Contents/MacOS/IntelBTPatcher",
+    "OC/Kexts/IntelBluetoothFirmware.kext/Contents/Info.plist",
+    "OC/Kexts/IntelBluetoothFirmware.kext/Contents/MacOS/IntelBluetoothFirmware",
+    "OC/config.plist"
+  ],
+  "configSHA256": "f3140c7ce8423f423c2775a001de816462759ccbf2950a77f5399f1196323eb4",
+  "fileCount": 163,
+  "allNonTargetEFIFilesUnchanged": true,
+  "SMBIOSCPUAndNVIDIAUnchanged": true,
+  "AudioHDA0Preserved": true,
+  "validatorVersion": "1.0.9",
+  "validatorPassed": true,
+  "BluetoothInstalled": true,
+  "BluetoothHardwareVerifiedAfterReboot": false,
+  "awaitingUserReboot": true,
+  "evidenceStage": "14:29写入阶段历史；当前已加载但控制器失败"
+}

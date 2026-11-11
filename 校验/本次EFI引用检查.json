@@ -1,0 +1,140 @@
+{
+  "isBootableEFI": false,
+  "allEntriesDisabled": true,
+  "missingFilesExpectedForReferenceOnly": true,
+  "entries": [
+    {
+      "section": "ACPI/Add",
+      "path": "ACPI/SSDT-PNLF.aml",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "ACPI/Add",
+      "path": "ACPI/SSDT-TPI0.aml",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "ACPI/Add",
+      "path": "ACPI/SSDT-HDA0.aml",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/Lilu.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/IntelMausi.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/AppleALC.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/BrightnessKeys.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/VoodooI2C.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/VoodooI2CHID.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/AirportItlwm.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/IntelBluetoothFirmware.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/IntelBTPatcher.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Kernel/Add",
+      "path": "Kexts/BlueToolFixup.kext",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "UEFI/Drivers",
+      "path": "Drivers/HfsPlus.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "UEFI/Drivers",
+      "path": "Drivers/OpenRuntime.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "UEFI/Drivers",
+      "path": "Drivers/ResetNvramEntry.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "UEFI/Drivers",
+      "path": "Drivers/OpenCanopy.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Misc/Tools",
+      "path": "Tools/NullMothSafe.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    },
+    {
+      "section": "Misc/Tools",
+      "path": "Tools/NullMothSafe.efi",
+      "enabled": false,
+      "existsInsideReferenceOC": false
+    }
+  ],
+  "note": "所有引用均为默认禁用的字段参考；不包含完整EFI，路径缺失如实列出，不把静态模板验收当作可启动整包验收。"
+}

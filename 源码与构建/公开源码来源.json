@@ -1,0 +1,76 @@
+[
+  {
+    "project": "IntelMausi",
+    "repository": "https://github.com/acidanthera/IntelMausi",
+    "requestedRef": "1.0.8",
+    "commit": "bde307d3098a787e2fa36df310423161df033224",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/IntelMausi/tar.gz/1.0.8",
+    "sourceArchiveSHA256": "ca07832b25f541528f5ead890dc2a28b3a908c9f344a08314e456e811eb3e9ad"
+  },
+  {
+    "project": "VoodooI2C",
+    "repository": "https://github.com/VoodooI2C/VoodooI2C",
+    "requestedRef": "5c0c99c",
+    "commit": "5c0c99cc451b03790c684ce6552c3f61620ad46b",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2C/tar.gz/5c0c99c",
+    "sourceArchiveSHA256": "97128a980140269a5fe7c0d2ee82019860d2ae1010e3fd93d12c536a973c2d42"
+  },
+  {
+    "project": "VoodooInput",
+    "repository": "https://github.com/acidanthera/VoodooInput",
+    "requestedRef": "d897813",
+    "commit": "d897813718c2ef9ad143b6a86240fe52dcb1693e",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/VoodooInput/tar.gz/d897813",
+    "sourceArchiveSHA256": "9860691532613c8cebad2442022a23d42cfd7f6941a6c0346c407baf12c0dbe8"
+  },
+  {
+    "project": "BrcmPatchRAM",
+    "repository": "https://github.com/acidanthera/BrcmPatchRAM",
+    "requestedRef": "6538902",
+    "commit": "65389020769837e92e9fb939bac34bd9a3e25bb2",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/BrcmPatchRAM/tar.gz/6538902",
+    "sourceArchiveSHA256": "01bb6e8fde8e72953294479ae400acadcd5e422e87edf9d6e01837dfdbac8b8a"
+  },
+  {
+    "project": "Lilu",
+    "repository": "https://github.com/acidanthera/Lilu",
+    "requestedRef": "0515f40",
+    "commit": "0515f40b7f2a096adc85e832a4c6104fbd07f936",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/Lilu/tar.gz/0515f40",
+    "sourceArchiveSHA256": "bbddbb23ccfa7ba444fd4b3a9f756e793748a73d17d175c2677c6cf09e5ce9e9"
+  },
+  {
+    "project": "AppleALC",
+    "repository": "https://github.com/acidanthera/AppleALC",
+    "requestedRef": "ff01db2",
+    "commit": "ff01db21749271916d44605503499ceaa61d94b2",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/AppleALC/tar.gz/ff01db2",
+    "sourceArchiveSHA256": "3af0a6a8ef27848ecad008599dc016152e0c8b292dccefb3e9ddfa0138799671"
+  },
+  {
+    "project": "BrightnessKeys",
+    "repository": "https://github.com/acidanthera/BrightnessKeys",
+    "requestedRef": "37bdf47",
+    "commit": "37bdf473b4cb33c804760125795aa591bb0c9835",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/BrightnessKeys/tar.gz/37bdf47",
+    "sourceArchiveSHA256": "71d99c975cd331033c3fa2f0fe7ef9bd7e74eac1e854ec8a67c5d197ab836c4c"
+  },
+  {
+    "project": "OpenCorePkg",
+    "repository": "https://github.com/acidanthera/OpenCorePkg",
+    "requestedRef": "6d8490d",
+    "commit": "6d8490d3236ad27d5b39063e0ebb55a79272d7a4",
+    "sourceArchiveURL": "https://codeload.github.com/acidanthera/OpenCorePkg/tar.gz/6d8490d",
+    "sourceArchiveSHA256": "8a5d07c8f87585871781076abf19b9e8186bb877d9114ebc629fdbb01b02daee"
+  },
+  {
+    "project": "USBToolBox",
+    "repository": "https://github.com/USBToolBox/kext",
+    "requestedRef": "1.2.0",
+    "commit": "a22ea1ebbd7706da4eaf31b655796dad744c3ca8",
+    "sourceArchiveURL": "https://codeload.github.com/USBToolBox/kext/tar.gz/refs/tags/1.2.0",
+    "sourceArchiveSHA256": "2d2e5a413e9e9b4138ce227170397305a22c33f358120571a9cb25ae5e4db2c2",
+    "sourceRedistributed": false,
+    "reason": "No explicit redistribution license file found in tag 1.2.0; only original field-change examples and official source links are published."
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "原源码": {
+    "sha256": "4b9551618c54ef006e1ac624e7a9a8fc117db151d25d9989dad5987ad510f6ea",
+    "gen3ObjectSHA256": "6aa767fa3fc702305d6128743ca4dc28ee7b76104a73df248e364977a4828a2a",
+    "imports": 327,
+    "exports": 255,
+    "constructorDestructorBytes": {
+      "__mod_init_func": 48,
+      "__mod_term_func": 48
+    },
+    "sfi": {
+      "readbackSHA256": "2b4671c49992845877541e0d780bff77ea6f6a02134b5503d1b4531367397f0f",
+      "compressedBytes": 700143,
+      "namePresent": true
+    },
+    "ddc": {
+      "readbackSHA256": "e0fb10fe29f60607d6507ced3f697492d9611f62c4765feaee59c4bd4101d3e7",
+      "compressedBytes": 12,
+      "namePresent": true
+    }
+  },
+  "候选源码": {
+    "sha256": "615efe4cb8ebd5049cc2f2c9c0e30c0a3d4e1089d44b19b43eab470b6ff9139c",
+    "gen3ObjectSHA256": "7a78b94e7cea83e729aed9ab7f6eae02e2b0a77d90e41f2be575f637d50aa3d1",
+    "imports": 327,
+    "exports": 255,
+    "constructorDestructorBytes": {
+      "__mod_init_func": 48,
+      "__mod_term_func": 48
+    },
+    "sfi": {
+      "readbackSHA256": "2b4671c49992845877541e0d780bff77ea6f6a02134b5503d1b4531367397f0f",
+      "compressedBytes": 700143,
+      "namePresent": true
+    },
+    "ddc": {
+      "readbackSHA256": "e0fb10fe29f60607d6507ced3f697492d9611f62c4765feaee59c4bd4101d3e7",
+      "compressedBytes": 12,
+      "namePresent": true
+    }
+  },
+  "allChecks": "PASS",
+  "deployedInputRelinkMatches": true,
+  "onlyChangedObject": "IntelBluetoothOpsGen3.o",
+  "minKernelMaxKernel": "unchanged in EFI config"
+}

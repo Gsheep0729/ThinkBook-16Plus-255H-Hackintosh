@@ -1,0 +1,15 @@
+{
+  "NVRM": 1,
+  "NVAccel": 1,
+  "NVRMBacklightHandler": 1,
+  "AppleBacklightDisplay": 1,
+  "VoodooI2CPCIController": 1,
+  "VoodooI2CControllerDriver": 1,
+  "VoodooI2CHIDDevice": 1,
+  "VoodooInput": 1,
+  "AppleMultitouchDevice": 1,
+  "IntelMausi": 1,
+  "AirportItlwm": 1,
+  "AppleHDAController": 0,
+  "IOHDACodecDevice": 0
+}

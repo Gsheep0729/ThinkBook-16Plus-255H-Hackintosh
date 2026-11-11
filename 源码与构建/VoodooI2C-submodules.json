@@ -1,0 +1,50 @@
+[
+  {
+    "project": "VoodooGPIO",
+    "repository": "https://github.com/VoodooI2C/VoodooGPIO",
+    "commit": "733dc8063f5ef07288a7bc648fff5348df6d8f65",
+    "path": "Dependencies/VoodooGPIO",
+    "sourceArchiveSHA256": "1e8e3f9b3e0791b879d21e3b42bf2432ce8b0a33586c34e48fd5ce1cb78812f0",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooGPIO/tar.gz/733dc8063f5ef07288a7bc648fff5348df6d8f65"
+  },
+  {
+    "project": "VoodooI2CAtmelMXT",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CAtmelMXT",
+    "commit": "0fa597583fd1061aae763c3d40d1078f5eff46ab",
+    "path": "VoodooI2C Satellites/VoodooI2CAtmelMXT",
+    "sourceArchiveSHA256": "59ba77812d6add1c9948509ebc906d0f9ef7ca595be8656ffcb016447302ee4d",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2CAtmelMXT/tar.gz/0fa597583fd1061aae763c3d40d1078f5eff46ab"
+  },
+  {
+    "project": "VoodooI2CELAN",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CELAN",
+    "commit": "60a1f9e59506bd769e0ad64a2e2423e29491c376",
+    "path": "VoodooI2C Satellites/VoodooI2CELAN",
+    "sourceArchiveSHA256": "6d38c976a41439a7227f0768ee86fb8644b21e4c6a96482f6de79a23b90fff77",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2CELAN/tar.gz/60a1f9e59506bd769e0ad64a2e2423e29491c376"
+  },
+  {
+    "project": "VoodooI2CFTE",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CFTE",
+    "commit": "d5085383ef1258150d2cb4fa80057ce25da390d0",
+    "path": "VoodooI2C Satellites/VoodooI2CFTE",
+    "sourceArchiveSHA256": "65b333535d830215b53bafae358ae721f23549d7ed378b2e16178222877d74b2",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2CFTE/tar.gz/d5085383ef1258150d2cb4fa80057ce25da390d0"
+  },
+  {
+    "project": "VoodooI2CHID",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CHID",
+    "commit": "27277936bc16c215ae7f9b31e76e3231778d04bd",
+    "path": "VoodooI2C Satellites/VoodooI2CHID",
+    "sourceArchiveSHA256": "19ba926cc8f3b7a9e79211c62bc38c723b38127783f37aef72272666bb88bf9e",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2CHID/tar.gz/27277936bc16c215ae7f9b31e76e3231778d04bd"
+  },
+  {
+    "project": "VoodooI2CSynaptics",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CSynaptics",
+    "commit": "e9b3a2ea56958e994ca35ddfef69f284fb540220",
+    "path": "VoodooI2C Satellites/VoodooI2CSynaptics",
+    "sourceArchiveSHA256": "db5719be8378309912082013077c1a760f11e30382f03a42c19d5c73a07a104b",
+    "sourceArchiveURL": "https://codeload.github.com/VoodooI2C/VoodooI2CSynaptics/tar.gz/e9b3a2ea56958e994ca35ddfef69f284fb540220"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "action": "apply",
+  "changedFiles": [
+    "OC/config.plist",
+    "OC/ACPI/SSDT-HDA0.aml"
+  ],
+  "configSHA256": "382d7e531e88b08ea35c0b8296db8c8efdfa22f522fbe695f170526ca87cfe4f",
+  "fileCount": 157,
+  "nonTargetEFIFilesUnchanged": true,
+  "SMBIOSUnchanged": true,
+  "CPUAndNVIDIAUnchanged": true,
+  "validatorVersion": "1.0.9",
+  "validatorPassed": true,
+  "awaitingUserReboot": true,
+  "evidenceStage": "14:08写入阶段历史；不表示18:45之后仍待重启"
+}

@@ -1,0 +1,41 @@
+{
+  "warning": "Private originals are NOT distributed. These hashes MUST NOT validate the public template.",
+  "configHistory": [
+    {
+      "stage": "安装阶段",
+      "sha256": "25d2118843abbdc0528f0fc855643865e45192aaf2cee7d557241e308d45aecb"
+    },
+    {
+      "stage": "NVIDIA安装后",
+      "sha256": "f99f6abe2788a09dd751300f43833eed40ebe5746318e8d74b2b61d8ed1f9be8"
+    },
+    {
+      "stage": "有线v2",
+      "sha256": "cfbce3784089f3206cc4cce211929cc9824bfa891e1a5d2b6c901ffc5453734b"
+    },
+    {
+      "stage": "PNLF与I2C早期",
+      "sha256": "0a846d126cb0bae9a2b9ba62419ebeb6ce79e33b646c20ab74d45853da0002ed"
+    },
+    {
+      "stage": "集中修复",
+      "sha256": "c9384f28fb2dd46b0e23a116a3364c94c66b5c54a8c489af0fb13f2ac1b2db3e"
+    },
+    {
+      "stage": "HDA0追加",
+      "sha256": "382d7e531e88b08ea35c0b8296db8c8efdfa22f522fbe695f170526ca87cfe4f"
+    },
+    {
+      "stage": "蓝牙追加-主题前历史记录",
+      "sha256": "f3140c7ce8423f423c2775a001de816462759ccbf2950a77f5399f1196323eb4"
+    },
+    {
+      "stage": "15:46森林主题-历史归档",
+      "sha256": "a4bf18df20aa96b0e0a16e481a1d74da96a078d9a0ffd86b643881a45fa97261"
+    },
+    {
+      "stage": "16:05详细主题-最近完整归档，非19时新鲜磁盘核验",
+      "sha256": "9d31f08223056f81197f64081736e5b9092120f2722ad53342e6d170af35b1c1"
+    }
+  ]
+}

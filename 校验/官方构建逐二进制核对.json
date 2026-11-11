@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/Lilu-0515f40/Lilu-1.7.3-RELEASE.zip",
+    "sha256": "261aebb9dc83adb6515c96405653f53c3c50b09c89babdb91fb41f7b33a1cd2a",
+    "bytes": 760006,
+    "executables": [
+      {
+        "name": "Lilu",
+        "matchesPublicBinary": false,
+        "publicSHA256": "6bc64e6d9e1b4dd1f7c6477365d0b7f14734aa00be76321205e1e7a105d4340b",
+        "officialSHA256s": [
+          "e3f00df5aca98c70363489292514f088ae3b667417c9c5afdd33799ff09390bd"
+        ]
+      }
+    ],
+    "scope": "Comparison is against historical local binary hashes, not necessarily the final distributed reference binary."
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/AppleALC-ff01db2/AppleALC-1.9.9-RELEASE.zip",
+    "sha256": "68c13a7712077d6de9978f03361dc31ee762011e0a6b80324ccd74247bc67062",
+    "bytes": 1852888,
+    "executables": [
+      {
+        "name": "AppleALC",
+        "matchesPublicBinary": true,
+        "publicSHA256": "21d5ffbf515aba5f9cacf48c0d4bd0b11189cb844133f696f027fd5d7998e9dd",
+        "officialSHA256s": [
+          "21d5ffbf515aba5f9cacf48c0d4bd0b11189cb844133f696f027fd5d7998e9dd"
+        ]
+      }
+    ],
+    "scope": "Comparison is against historical local binary hashes, not necessarily the final distributed reference binary."
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/BrightnessKeys-37bdf47/BrightnessKeys-1.0.4-RELEASE.zip",
+    "sha256": "8fc2be5041801cc4fbf481153034b975ed18e02af312d6316531ee859f764126",
+    "bytes": 66156,
+    "executables": [
+      {
+        "name": "BrightnessKeys",
+        "matchesPublicBinary": true,
+        "publicSHA256": "f47210181030a6005ccb17c125dbe81b359c2c9fd74c12b99b860b8b5f44a72a",
+        "officialSHA256s": [
+          "f47210181030a6005ccb17c125dbe81b359c2c9fd74c12b99b860b8b5f44a72a"
+        ]
+      }
+    ],
+    "scope": "Comparison is against historical local binary hashes, not necessarily the final distributed reference binary."
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/VoodooI2C-5c0c99c/release.zip",
+    "sha256": "2347e42fb09f2386b47f4c02b265441bc5f3cf344d1ff168daed93a6b6c411e3",
+    "bytes": 261500,
+    "executables": [
+      {
+        "name": "VoodooI2C",
+        "matchesPublicBinary": false,
+        "publicSHA256": "550542707843d34df8ce7ae31c4f54c9c1fed6966d2eee2605188fb77abff5c9",
+        "officialSHA256s": [
+          "dbb7865eec4eeb0ea4e303789407c8cbbbfa3a944780191bd9943279c64ebe9f"
+        ]
+      },
+      {
+        "name": "VoodooI2CHID",
+        "matchesPublicBinary": false,
+        "publicSHA256": "2e629ea4422414e0f81f1df47d320973f37e922c203a43e65df53e1df39af432",
+        "officialSHA256s": [
+          "1ba930b05d5c786b97353a63767fab090125d8d3e665443db4e07e46ab8b2e53"
+        ]
+      }
+    ],
+    "scope": "Comparison is against historical local binary hashes, not necessarily the final distributed reference binary."
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/VoodooInput-d897813/VoodooInput-1.1.7-RELEASE.zip",
+    "sha256": "5a30a642afc59c7c87a11fc7d9c4d76509b059fa01fd3e058bd999fb30a76d65",
+    "bytes": 120236,
+    "executables": [
+      {
+        "name": "VoodooInput",
+        "matchesPublicBinary": false,
+        "publicSHA256": "29cd847519f0516c9f0bff2cff7f601dc4b05d5395ea8592291b88b5741df11d",
+        "officialSHA256s": [
+          "4b554582523cddeb3e625b4aada4cd1cb14169dd2d3fe7189be7a04642d00c2b"
+        ]
+      }
+    ],
+    "scope": "Comparison is against historical local binary hashes, not necessarily the final distributed reference binary."
+  }
+]

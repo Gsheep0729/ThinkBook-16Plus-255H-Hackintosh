@@ -1,0 +1,39 @@
+{
+  "tool": "ACPICA iasl 20230628, Ubuntu package 20230628-1",
+  "tables": [
+    {
+      "dsl": "ACPI/已验收基础功能/SSDT-PNLF.dsl",
+      "exitCode": 0,
+      "diagnostics": "\nIntel ACPI Component Architecture\nASL+ Optimizing Compiler/Disassembler version 20230628\nCopyright (c) 2000 - 2023 Intel Corporation\n\nASL Input:     <PUBLIC_ROOT>/ACPI/已验收基础功能/SSDT-PNLF.dsl -     435 bytes      6 keywords      0 source lines\nAML Output:    /tmp/hackintosh-aml-check/table0.aml -     110 bytes      0 opcodes       6 named objects\n\nCompilation successful. 0 Errors, 0 Warnings, 0 Remarks, 0 Optimizations\n",
+      "compiled": true,
+      "exactBytesMatch": false,
+      "amlBodyMatch": true,
+      "compiledChecksumValid": true,
+      "compiledSHA256": "ef94ff5cf0264a2ae1c412372612234f6836034a503ff49bb2f2fc762325d22e",
+      "originalSHA256": "d441c02e84fb0c0c05589009ab73f9bcbc43b418407666d6d5609bf42f577cae"
+    },
+    {
+      "dsl": "ACPI/触控板-已接管但跳动/SSDT-TPI0.dsl",
+      "exitCode": 0,
+      "diagnostics": "\nIntel ACPI Component Architecture\nASL+ Optimizing Compiler/Disassembler version 20230628\nCopyright (c) 2000 - 2023 Intel Corporation\n\nASL Input:     <PUBLIC_ROOT>/ACPI/触控板-已接管但跳动/SSDT-TPI0.dsl -    1423 bytes     24 keywords      0 source lines\nAML Output:    /tmp/hackintosh-aml-check/table1.aml -     264 bytes     12 opcodes      12 named objects\n\nCompilation successful. 0 Errors, 0 Warnings, 2 Remarks, 2 Optimizations\n<PUBLIC_ROOT>/ACPI/触控板-已接管但跳动/SSDT-TPI0.dsl     29:                 Method (XDSM, 4, Serialized)\nRemark   2146 -                                                                                                                                      Method Argument is never used ^  (Arg1)\n\n<PUBLIC_ROOT>/ACPI/触控板-已接管但跳动/SSDT-TPI0.dsl     29:                 Method (XDSM, 4, Serialized)\nRemark   2146 -                                                                                                                                      Method Argument is never used ^  (Arg3)\n\n",
+      "compiled": true,
+      "exactBytesMatch": false,
+      "amlBodyMatch": true,
+      "compiledChecksumValid": true,
+      "compiledSHA256": "5c431cf6bcc631af9e86dfe9646c80d845a334ef4335a775c6c1d7277b8ade27",
+      "originalSHA256": "fa6f851a3da02c35bebb1c3a4c8862c6b5b526a5da4acf63c0e49b3556f1d326"
+    },
+    {
+      "dsl": "修复案例/音频-内置扬声器已通过/ACPI/SSDT-HDA0.dsl",
+      "exitCode": 0,
+      "diagnostics": "\nIntel ACPI Component Architecture\nASL+ Optimizing Compiler/Disassembler version 20230628\nCopyright (c) 2000 - 2023 Intel Corporation\n\nASL Input:     <PUBLIC_ROOT>/修复案例/音频-内置扬声器已通过/ACPI/SSDT-HDA0.dsl -    1122 bytes     15 keywords      0 source lines\nAML Output:    /tmp/hackintosh-aml-check/table2.aml -     246 bytes     10 opcodes       5 named objects\n\nCompilation successful. 0 Errors, 0 Warnings, 0 Remarks, 2 Optimizations\n",
+      "compiled": true,
+      "exactBytesMatch": false,
+      "amlBodyMatch": true,
+      "compiledChecksumValid": true,
+      "compiledSHA256": "40d00e43e87daa232ea38ea95aabf86fa3c8f9c3813bd86603b55af972e29005",
+      "originalSHA256": "220e7baeb83c1e7061cdf56c193086503b1b99fb91bc3251dc62b40a2bc5337e"
+    }
+  ],
+  "note": "不同编译器可能改变ACPI头编译器版本/校验字节；检查编译成功、checksum和36字节头之后的AML内容，不替换已发布AML。"
+}

@@ -1,0 +1,22 @@
+--- a/IntelMausiEthernet/IntelMausiEthernet.cpp
++++ b/IntelMausiEthernet/IntelMausiEthernet.cpp
+@@ -101,7 +101,7 @@
+     { .pciDevId = E1000_DEV_ID_PCH_ADP_I219_V16, .device = board_pch_cnp, .deviceName = "I219V16", .deviceInfo = &e1000_pch_cnp_info },
+     { .pciDevId = E1000_DEV_ID_PCH_ADP_I219_LM17, .device = board_pch_cnp, .deviceName = "I219LM17", .deviceInfo = &e1000_pch_cnp_info },
+     { .pciDevId = E1000_DEV_ID_PCH_ADP_I219_V17, .device = board_pch_cnp, .deviceName = "I219V17", .deviceInfo = &e1000_pch_cnp_info },
+-    { .pciDevId = E1000_DEV_ID_PCH_MTP_I219_LM18, .device = board_pch_cnp, .deviceName = "I219LM18", .deviceInfo = &e1000_pch_cnp_info },
++    { .pciDevId = 0x57A1, .device = board_pch_cnp, .deviceName = "I219LM18", .deviceInfo = &e1000_pch_cnp_info },
+     { .pciDevId = E1000_DEV_ID_PCH_MTP_I219_V18, .device = board_pch_cnp, .deviceName = "I219V18", .deviceInfo = &e1000_pch_cnp_info },
+     { .pciDevId = E1000_DEV_ID_PCH_MTP_I219_LM19, .device = board_pch_cnp, .deviceName = "I219LM19", .deviceInfo = &e1000_pch_cnp_info },
+     { .pciDevId = E1000_DEV_ID_PCH_MTP_I219_V19, .device = board_pch_cnp, .deviceName = "I219V19", .deviceInfo = &e1000_pch_cnp_info },
+--- a/IntelMausiEthernet/IntelMausiEthernet-Info.plist
++++ b/IntelMausiEthernet/IntelMausiEthernet-Info.plist
+@@ -58,7 +58,7 @@
+ 			<key>IOClass</key>
+ 			<string>IntelMausi</string>
+ 			<key>IOPCIMatch</key>
+-			<string>0x10EA8086 0x10EB8086 0x10EF8086 0x10F08086 0x15028086 0x15038086 0x153A8086 0x153B8086 0x155A8086 0x15598086 0x15A08086 0x15A18086 0x15A28086 0x15A38086 0x156F8086 0x15708086 0x15B78086 0x15B88086 0x15D78086 0x15D88086 0x15E38086 0x15D68086 0x15BD8086 0x15BE8086 0x15BB8086 0x15BC8086 0x15DF8086 0x15E08086 0x15E18086 0x15E28086 0x15B98086 0x0D4E8086 0x0D4F8086 0x0D4C8086 0x0D4D8086 0x0D538086 0x0D558086 0x15FB8086 0x15FC8086 0x15F98086 0x15FA8086 0x15F48086 0x15F58086 0x1A1E8086 0x1A1F8086 0x1A1C8086 0x1A1D8086 0x550A8086 0x550B8086 0x550C8086 0x550D8086</string>
++			<string>0x10EA8086 0x10EB8086 0x10EF8086 0x10F08086 0x15028086 0x15038086 0x153A8086 0x153B8086 0x155A8086 0x15598086 0x15A08086 0x15A18086 0x15A28086 0x15A38086 0x156F8086 0x15708086 0x15B78086 0x15B88086 0x15D78086 0x15D88086 0x15E38086 0x15D68086 0x15BD8086 0x15BE8086 0x15BB8086 0x15BC8086 0x15DF8086 0x15E08086 0x15E18086 0x15E28086 0x15B98086 0x0D4E8086 0x0D4F8086 0x0D4C8086 0x0D4D8086 0x0D538086 0x0D558086 0x15FB8086 0x15FC8086 0x15F98086 0x15FA8086 0x15F48086 0x15F58086 0x1A1E8086 0x1A1F8086 0x1A1C8086 0x1A1D8086 0x550A8086 0x550B8086 0x550C8086 0x550D8086 0x57A18086</string>
+ 			<key>IOProbeScore</key>
+ 			<integer>1000</integer>
+ 			<key>IOProviderClass</key>

@@ -1,0 +1,11 @@
+{
+  "baselineImportCount": 327,
+  "nativeImportCount": 327,
+  "exactImportSetMatch": true,
+  "allImportsResolvedOnCurrentKernel": true,
+  "embeddedNewFirmwareRoundtripVerified": true,
+  "ctorBytes": 48,
+  "dtorBytes": 48,
+  "firmwareSHA256": "2b4671c49992845877541e0d780bff77ea6f6a02134b5503d1b4531367397f0f",
+  "binarySHA256": "4b9551618c54ef006e1ac624e7a9a8fc117db151d25d9989dad5987ad510f6ea"
+}

@@ -1,0 +1,76 @@
+{
+  "bootTime": "2026-11-04 18:45:40 Asia/Shanghai",
+  "observationsSince": "19:19",
+  "audio": {
+    "ACPI": "HDA0",
+    "deviceID": "8086:7AD0",
+    "codec": "Realtek ALC257",
+    "codecID": "10EC:0257",
+    "subsystem": "17AA:3DD3",
+    "controllerCount": 1,
+    "codecCount": 1,
+    "coreAudioDevices": 4,
+    "userSpeakerPlaybackPassed": true,
+    "headphonePlaybackVerified": false,
+    "microphoneRecordingVerified": false
+  },
+  "touchpad": {
+    "device": "GXTP5100",
+    "mode": "Polling",
+    "I2CAddress": "0x2C",
+    "driverChainPresent": true,
+    "userReportsJumpsAfterHandsLeave": true,
+    "jumpsOnBatteryAlso": true,
+    "problemResolved": false
+  },
+  "bluetooth": {
+    "usbID": "8087:0037",
+    "loadedModules": 3,
+    "loadedBuildMatches1503": true,
+    "firmwareName": "ibt-0093-0291.sfi",
+    "FirmwareLoadedMarker": true,
+    "realControllerOn": false,
+    "addressValid": false,
+    "paired": false,
+    "controllerWait15sCountInCapturedWindow": 121,
+    "restartCountInCapturedWindow": 121,
+    "observedFailure": "USB transport initialization failed",
+    "rootCauseConfirmed": false
+  },
+  "usb": {
+    "NHI7EC3NoLongerBoundToUSBToolBox": true,
+    "xHCIRootPorts": {
+      "777D": 14,
+      "7EC0": 5
+    },
+    "allPhysicalPortsVerified": false,
+    "dedicatedPortMappingComplete": false
+  },
+  "wifi": {
+    "DHCP": true,
+    "boundDNS": true,
+    "boundPublicICMP": true,
+    "boundHTTPS200": true,
+    "boundTrafficCountersIncreased": true,
+    "gatewayPingCount": 20,
+    "gatewayPingLossPercent": 0,
+    "gatewayPingMinAvgMaxMs": [
+      5.958,
+      33.278,
+      88.578
+    ],
+    "gatewayStddevMs": 23.292,
+    "longTermStabilityVerified": false,
+    "differentUpstreamsPreventDirectPublicLatencyAttribution": true
+  },
+  "ethernet": {
+    "IntelMausiAttached": true,
+    "cableConnectivityVerified": false
+  },
+  "GPUHiDPIBacklightStillPassed": true,
+  "menuUserReportedDisplayAndOperationPassed": true,
+  "ESPReadOrWrittenDuringAcceptance": false,
+  "latestFullDiskHashFreshlyReread": false,
+  "lastArchivedConfigSHA256": "9d31f08223056f81197f64081736e5b9092120f2722ad53342e6d170af35b1c1",
+  "lastArchivedFileCount": 218
+}

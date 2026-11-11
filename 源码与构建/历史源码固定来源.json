@@ -1,0 +1,20 @@
+[
+  {
+    "project": "AirportBZ",
+    "repository": "https://github.com/HuajiFruit/AirportBZ",
+    "commit": "0ccab1627764406861fb9eb0a06ca36e31b4440f",
+    "provenance": "Historical pinned local source snapshot; original machine files not published"
+  },
+  {
+    "project": "MacKernelSDK",
+    "repository": "https://github.com/acidanthera/MacKernelSDK",
+    "commit": "3f750085caa17ec3a7880f11c11bf4f48cd6a164",
+    "provenance": "Historical pinned local source snapshot; original machine files not published"
+  },
+  {
+    "project": "IntelBluetoothFirmware",
+    "repository": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware",
+    "commit": "a414375505fa3b014be32f8fca31b5bbfdf9f10f",
+    "provenance": "Historical pinned local source snapshot; original machine files not published"
+  }
+]

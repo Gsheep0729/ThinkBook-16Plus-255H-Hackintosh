@@ -1,0 +1,25 @@
+{
+  "patchDryRuns": [
+    {
+      "patch": "IntelMausi-57A1-source.patch",
+      "source": "IntelMausi",
+      "exitCode": 0,
+      "output": "checking file IntelMausiEthernet/IntelMausiEthernet.cpp\nchecking file IntelMausiEthernet/IntelMausiEthernet-Info.plist\n"
+    },
+    {
+      "patch": "IntelBluetoothFirmware-0037-BlazarU.patch",
+      "source": "IntelBluetoothFirmware",
+      "exitCode": 0,
+      "output": "checking file IntelBluetoothFirmware/Info.plist\nchecking file IntelBluetoothFirmware/IntelBluetoothFirmware.cpp\nchecking file IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp\n"
+    }
+  ],
+  "pythonSyntaxChecked": [
+    "工具/验证发布清单.py",
+    "工具/只读配置检查.py",
+    "工具/离线制作IntelMausi补丁.py",
+    "源码与构建/构建AirportBZ-native.py",
+    "源码与构建/构建IntelBluetooth0037-native.py"
+  ],
+  "nativeKextBuildRerun": false,
+  "realEFIChanged": false
+}

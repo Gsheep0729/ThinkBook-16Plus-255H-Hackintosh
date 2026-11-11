@@ -1,0 +1,24 @@
+{
+  "bootTime": "2026-11-04 18:45:40 Asia/Shanghai",
+  "counts": {
+    "NVRM": 1,
+    "NVAccel": 1,
+    "AppleBacklightDisplay": 1,
+    "NVRMBacklightHandler": 1,
+    "VoodooI2CPCIController": 1,
+    "VoodooI2CHIDDevice": 1,
+    "VoodooInput": 1,
+    "AppleMultitouchDevice": 1,
+    "AppleHDAController": 1,
+    "IOHDACodecDevice": 1,
+    "AppleHDADriver": 1,
+    "AppleHDAEngineInput": 2,
+    "AppleHDAEngineOutput": 2,
+    "IntelBluetoothFirmware": 1,
+    "IntelBTPatcher": 1,
+    "BlueToolFixup": 1,
+    "AirportItlwm": 1,
+    "IntelMausi": 1
+  },
+  "scope": "Instances do not by themselves prove working touchpad, Bluetooth or external audio."
+}

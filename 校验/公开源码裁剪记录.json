@@ -1,0 +1,23 @@
+{
+  "omittedNonessentialDeveloperStateAndDebugArtifacts": [
+    "源码与构建/VoodooI2C/VoodooI2C/VoodooI2C.xcodeproj/xcuserdata",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CAtmelMXT/VoodooI2CAtmelMXT.xcodeproj/xcuserdata",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CELAN/VoodooI2CELAN.xcodeproj/xcuserdata",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CFTE/VoodooI2CFTE.xcodeproj/xcuserdata",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CFTE/VoodooI2CFTE.xcodeproj/project.xcworkspace/xcuserdata",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CSynaptics/VoodooI2CSynaptics.xcodeproj/xcuserdata",
+    "源码与构建/OpenCorePkg/Debug/GdbSyms/Bin",
+    "源码与构建/VoodooI2C/VoodooI2C Satellites/VoodooI2CFTE/VoodooI2CFTE.xcodeproj/project.xcworkspace",
+    "源码与构建/MacKernelSDK/Docs"
+  ],
+  "textPathPlaceholderSanitized": [
+    "源码与构建/OpenCorePkg/Library/OcCompressionLib/zlib/diff/inflate.c.diff",
+    "源码与构建/OpenCorePkg/Library/OcCompressionLib/zlib/diff/zconf.h.diff",
+    "源码与构建/OpenCorePkg/Library/OcCompressionLib/zlib/diff/zutil.c.diff",
+    "源码与构建/OpenCorePkg/Library/OcCompressionLib/zlib/diff/zutil.h.diff",
+    "源码与构建/OpenCorePkg/Utilities/ShimUtils/README.md"
+  ],
+  "coreDriverSourceImplementationChangedBySanitization": false,
+  "copyrightAuthorsAndLicensesPreserved": true,
+  "ciRunnerPathsInOfficialBinariesAreGenericPublicBuildPaths": true
+}

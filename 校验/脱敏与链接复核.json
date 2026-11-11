@@ -1,0 +1,15 @@
+{
+  "checkedFiles": 5969,
+  "knownPrivateCandidatesCount": 70,
+  "privateConfigsExamined": 7,
+  "privateMatchFindings": [],
+  "sensitivePathOrTokenFindings": [],
+  "brokenAuthoredRelativeLinks": [],
+  "parsedPlists": 17,
+  "validAMLs": 3,
+  "rawLogsOrPrivateEFIIncluded": false,
+  "scope": "All payload files scanned for known local/peer identities; generic source constants, copyright authors and protocol GUIDs retained. Package-authored navigation checked; upstream source docs retain upstream context.",
+  "auditDate": "2026-11-11",
+  "photosMetadataRemovedAndDecodedPixelsCompared": 9,
+  "hardwareRetested": false
+}

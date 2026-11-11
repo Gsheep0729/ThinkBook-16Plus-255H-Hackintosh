@@ -1,0 +1,129 @@
+--- a/IntelBluetoothFirmware/Info.plist
++++ b/IntelBluetoothFirmware/Info.plist
+@@ -5,9 +5,9 @@
+ 	<key>CFBundleDevelopmentRegion</key>
+ 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+ 	<key>CFBundleExecutable</key>
+-	<string>$(EXECUTABLE_NAME)</string>
++	<string>IntelBluetoothFirmware</string>
+ 	<key>CFBundleIdentifier</key>
+-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
++	<string>com.zxystd.IntelBluetoothFirmware</string>
+ 	<key>CFBundleInfoDictionaryVersion</key>
+ 	<string>6.0</string>
+ 	<key>CFBundleName</key>
+@@ -15,9 +15,9 @@
+ 	<key>CFBundlePackageType</key>
+ 	<string>KEXT</string>
+ 	<key>CFBundleShortVersionString</key>
+-	<string>$(MODULE_VERSION)</string>
++	<string>2.5.0</string>
+ 	<key>CFBundleVersion</key>
+-	<string>$(MODULE_VERSION)</string>
++	<string>2.5.0</string>
+ 	<key>IOKitPersonalities</key>
+ 	<dict>
+ 		<key>IntelBluetoothFirmware_0026</key>
+@@ -238,6 +238,23 @@
+ 			<string>IOUSBHostDevice</string>
+ 			<key>idProduct</key>
+ 			<integer>51</integer>
++			<key>idVendor</key>
++			<integer>32903</integer>
++		</dict>
++		<key>IntelBluetoothFirmware_0037</key>
++		<dict>
++			<key>CFBundleIdentifier</key>
++			<string>com.zxystd.IntelBluetoothFirmware</string>
++			<key>IOClass</key>
++			<string>IntelBluetoothFirmware</string>
++			<key>IOMatchCategory</key>
++			<string>IntelBluetoothFirmware</string>
++			<key>IOProbeScore</key>
++			<integer>4000</integer>
++			<key>IOProviderClass</key>
++			<string>IOUSBHostDevice</string>
++			<key>idProduct</key>
++			<integer>55</integer>
+ 			<key>idVendor</key>
+ 			<integer>32903</integer>
+ 		</dict>
+--- a/IntelBluetoothFirmware/IntelBluetoothFirmware.cpp
++++ b/IntelBluetoothFirmware/IntelBluetoothFirmware.cpp
+@@ -148,7 +148,7 @@
+     if (productID == 0x07dc || productID == 0x0a2a || productID == 0x0aa7) {
+         currentType = kTypeGen1;
+     } else if (productID == 0x0032 || productID == 0x0033 || productID == 0x0035
+-               || productID == 0x0036 || productID == 0x0038) {
++               || productID == 0x0036 || productID == 0x0037 || productID == 0x0038) {
+         currentType = kTypeGen3;
+     } else {
+         currentType = kTypeGen2;
+--- a/IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp
++++ b/IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp
+@@ -216,6 +216,7 @@
+         case 0x18:
+         case 0x19:
+         case 0x1b:
++        case 0x1d: /* Local verified BlazarU 8087:0037 */
+         case 0x1c:
+             /* Display version information of TLV type */
+             versionInfoTLV(&verTLV);
+@@ -241,9 +242,14 @@
+     IOReturn ior;
+     uint32_t actSize = 0;
+     uint8_t buf[CMD_BUF_MAX_SIZE];
+-    HciResponse *resp = (HciResponse *)buf;
++    struct __attribute__((packed)) SecureSendEvent {
++        HciEventHdr header;
++        uint8_t subevent;
++        IntelSecureSendResult completion;
++    };
++    const SecureSendEvent *event = reinterpret_cast<const SecureSendEvent *>(buf);
+     bool firmwareMode = false;
+-    bool ret = true;
++    bool ret = false;
+     
+     if (!ver || !bootParams) {
+         return false;
+@@ -317,7 +323,7 @@
+      * of this device.
+      */
+     memset(buf, 0, sizeof(buf));
+-    ior = m_pUSBDeviceController->interruptPipeRead(resp, sizeof(buf), &actSize, 5000);
++    ior = m_pUSBDeviceController->interruptPipeRead(buf, sizeof(buf), &actSize, 5000);
+     if (ior != kIOReturnSuccess) {
+         XYLog("waiting for firmware download done timeout\n");
+         resetToBootloader();
+@@ -325,12 +331,19 @@
+         goto done;
+     }
+     
+-    if (resp->evt.evt == 0xff && resp->numCommands == 0x06) {
+-        XYLog("Notify: Firmware download done\n");
++    if (actSize != sizeof(*event) || event->header.evt != 0xff ||
++        event->header.len != sizeof(*event) - sizeof(HciEventHdr) || event->subevent != 0x06) {
++        XYLog("Invalid secure send completion (length %u)\n", actSize);
+         goto done;
+     }
+-    
+-    ret = false;
++    if (event->completion.result != 0) {
++        XYLog("Secure send failed: result 0x%02x status 0x%02x\n",
++              event->completion.result, event->completion.status);
++        goto done;
++    }
++
++    XYLog("Notify: Firmware download done\n");
++    ret = true;
+     
+ done:
+     OSSafeReleaseNULL(fwData);
+@@ -630,6 +643,7 @@
+         case 0x18:    /* Slr */
+         case 0x19:    /* Slr-F */
+         case 0x1b:    /* Mgr */
++        case 0x1d: /* Local verified BlazarU 8087:0037 */
+         case 0x1c:    /* Gale Peak (GaP) */
+             break;
+         default:

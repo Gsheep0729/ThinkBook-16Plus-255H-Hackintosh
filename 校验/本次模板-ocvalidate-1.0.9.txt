@@ -1,0 +1,5 @@
+
+NOTE: This version of ocvalidate is only compatible with OpenCore version 1.0.9!
+
+
+Completed validating <PUBLIC_ROOT>/EFI参考/OC/config-参考-全部禁用.plist in 0 ms. No issues found.

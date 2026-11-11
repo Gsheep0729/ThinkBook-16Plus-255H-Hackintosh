@@ -1,0 +1,298 @@
+[
+  {
+    "bundle": "AppleALC.kext",
+    "version": "1.9.9",
+    "bundleID": "as.vit9696.AppleALC",
+    "path": "驱动/依赖/AppleALC.kext",
+    "status": "依赖已加载，功能另验",
+    "project": "AppleALC",
+    "repository": "https://github.com/acidanthera/AppleALC",
+    "commit": "ff01db21749271916d44605503499ceaa61d94b2",
+    "executableSHA256": "21d5ffbf515aba5f9cacf48c0d4bd0b11189cb844133f696f027fd5d7998e9dd",
+    "infoSHA256": "e8735de5d1ae4baeb7c275dfbbd554d6cdc04d962c99e8e1fc4247f9bcff7984",
+    "executableBytes": 1905656,
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOPCIFamily": "1.0.0b1",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "BrightnessKeys.kext",
+    "version": "1.0.4",
+    "bundleID": "as.acidanthera.BrightnessKeys",
+    "path": "驱动/依赖/BrightnessKeys.kext",
+    "status": "依赖已加载，功能另验",
+    "project": "BrightnessKeys",
+    "repository": "https://github.com/acidanthera/BrightnessKeys",
+    "commit": "37bdf473b4cb33c804760125795aa591bb0c9835",
+    "executableSHA256": "f47210181030a6005ccb17c125dbe81b359c2c9fd74c12b99b860b8b5f44a72a",
+    "infoSHA256": "f055eb6f0caff1a8c4ccbdccf337a0a177b751050fb0ad4dda3d750d0b1f6d62",
+    "executableBytes": 37040,
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOACPIFamily": "1.0.0d1",
+      "com.apple.iokit.IOHIDFamily": "1.0.0b1",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "Lilu.kext",
+    "version": "1.7.3",
+    "bundleID": "as.vit9696.Lilu",
+    "path": "驱动/官方参考-未替换验收/Lilu.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "Lilu",
+    "repository": "https://github.com/acidanthera/Lilu",
+    "commit": "0515f40b7f2a096adc85e832a4c6104fbd07f936",
+    "executableSHA256": "e3f00df5aca98c70363489292514f088ae3b667417c9c5afdd33799ff09390bd",
+    "infoSHA256": "c35d818b19efeb0c75cf8a38786e24224c73ea720b941d02896b9bbddb370d74",
+    "executableBytes": 543840,
+    "OSBundleLibraries": {
+      "com.apple.kernel.6.0": "7.9.9",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "VoodooI2C.kext",
+    "version": "2.9.1",
+    "bundleID": "com.alexandred.VoodooI2C",
+    "path": "驱动/官方参考-未替换验收/VoodooI2C.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "VoodooI2C",
+    "repository": "https://github.com/VoodooI2C/VoodooI2C",
+    "commit": "5c0c99cc451b03790c684ce6552c3f61620ad46b",
+    "executableSHA256": "dbb7865eec4eeb0ea4e303789407c8cbbbfa3a944780191bd9943279c64ebe9f",
+    "infoSHA256": "b1db3b57d6de6b517364efeef0fe86f871abf5bf35b625ffb5d8482e3cbae703",
+    "executableBytes": 165944,
+    "OSBundleLibraries": {
+      "com.alexandred.VoodooI2CServices": "1.0",
+      "com.apple.iokit.IOACPIFamily": "1.4",
+      "com.apple.iokit.IOHIDFamily": "2.0",
+      "com.apple.iokit.IOPCIFamily": "2.9",
+      "com.apple.kpi.bsd": "8.0",
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14",
+      "com.apple.kpi.mach": "14",
+      "org.coolstar.VoodooGPIO": "1.1"
+    }
+  },
+  {
+    "bundle": "VoodooGPIO.kext",
+    "version": "1.1",
+    "bundleID": "org.coolstar.VoodooGPIO",
+    "path": "驱动/官方参考-未替换验收/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "VoodooGPIO",
+    "repository": "https://github.com/VoodooI2C/VoodooGPIO",
+    "commit": "733dc8063f5ef07288a7bc648fff5348df6d8f65",
+    "executableSHA256": "c29472606eb6c86f24bf927cada8f1a78107b2659bad813671bd73eb01163643",
+    "infoSHA256": "d1c7ba4402b9200917d9c18290b6d04b90b5afc1a6f00b8a9be00916a0d27893",
+    "executableBytes": 303888,
+    "OSBundleLibraries": {
+      "com.apple.iokit.IOACPIFamily": "1.4",
+      "com.apple.kpi.iokit": "13.0",
+      "com.apple.kpi.libkern": "13.0",
+      "com.apple.kpi.mach": "13.0"
+    }
+  },
+  {
+    "bundle": "VoodooI2CServices.kext",
+    "version": "1",
+    "bundleID": "com.alexandred.VoodooI2CServices",
+    "path": "驱动/官方参考-未替换验收/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "VoodooI2C",
+    "repository": "https://github.com/VoodooI2C/VoodooI2C",
+    "commit": "5c0c99cc451b03790c684ce6552c3f61620ad46b",
+    "executableSHA256": "0dda79836a5ec2b1b60cacb27c2a7e022993b9983a3689f6b0826505c51c5e1e",
+    "infoSHA256": "2cb3ea0411d3c49b6a868f5d4d76bdc238b62340bc3015c7dbab9364776bd2ff",
+    "executableBytes": 62784,
+    "OSBundleLibraries": {
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14"
+    }
+  },
+  {
+    "bundle": "VoodooInput.kext",
+    "version": "1.1.7",
+    "bundleID": "me.kishorprins.VoodooInput",
+    "path": "驱动/官方参考-未替换验收/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "VoodooInput",
+    "repository": "https://github.com/acidanthera/VoodooInput",
+    "commit": "d897813718c2ef9ad143b6a86240fe52dcb1693e",
+    "executableSHA256": "4b554582523cddeb3e625b4aada4cd1cb14169dd2d3fe7189be7a04642d00c2b",
+    "infoSHA256": "4b613689d908142e19554ffd6a1524dc029ba4e0f3cc2b6a0e03d9d82777264d",
+    "executableBytes": 88624,
+    "OSBundleLibraries": {
+      "com.apple.iokit.IOHIDFamily": "2.0",
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14",
+      "com.apple.kpi.mach": "13.0"
+    }
+  },
+  {
+    "bundle": "VoodooI2CHID.kext",
+    "version": "1",
+    "bundleID": "com.alexandred.VoodooI2CHID",
+    "path": "驱动/官方参考-未替换验收/VoodooI2CHID.kext",
+    "status": "官方参考构建，未在本机替换验收",
+    "project": "VoodooI2CHID",
+    "repository": "https://github.com/VoodooI2C/VoodooI2CHID",
+    "commit": "27277936bc16c215ae7f9b31e76e3231778d04bd",
+    "executableSHA256": "1ba930b05d5c786b97353a63767fab090125d8d3e665443db4e07e46ab8b2e53",
+    "infoSHA256": "a968984eaeb0caf782c388baf4a05445e8da9214792e72f32859a8b3468cccf4",
+    "executableBytes": 235056,
+    "OSBundleLibraries": {
+      "com.alexandred.VoodooI2C": "2.0",
+      "com.apple.iokit.IOACPIFamily": "1.4",
+      "com.apple.iokit.IOHIDFamily": "2.0",
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14",
+      "com.apple.kpi.mach": "13.0"
+    }
+  },
+  {
+    "bundle": "AirportItlwm.kext",
+    "version": "1.0.0",
+    "bundleID": "com.zxystd.AirportItlwm",
+    "path": "驱动/部分通过/AirportItlwm.kext",
+    "status": "部分通过，见验收表",
+    "project": "AirportBZ",
+    "repository": "https://github.com/HuajiFruit/AirportBZ",
+    "commit": "0ccab1627764406861fb9eb0a06ca36e31b4440f",
+    "executableSHA256": "fbfad901a222e6190971fab323cecedf65dc48ad848c6153e801804c9939edb9",
+    "infoSHA256": "685187cb520450bf810df52b1142f5d2fe2563f9a23f473b163e124afe12a123",
+    "executableBytes": 2271128,
+    "OSBundleLibraries": {
+      "com.apple.driver.corecapture": "1.0.0",
+      "com.apple.iokit.IO80211Family": "1.5.0",
+      "com.apple.iokit.IONetworkingFamily": "3.2",
+      "com.apple.iokit.IOPCIFamily": "2.9",
+      "com.apple.iokit.IOSkywalkFamily": "1.0",
+      "com.apple.kpi.bsd": "16.7",
+      "com.apple.kpi.iokit": "16.7",
+      "com.apple.kpi.libkern": "16.7",
+      "com.apple.kpi.mach": "16.7"
+    }
+  },
+  {
+    "bundle": "IntelMausi.kext",
+    "version": "1.0.8",
+    "bundleID": "as.acidanthera.mieze.IntelMausi",
+    "path": "驱动/部分通过/IntelMausi.kext",
+    "status": "部分通过，见验收表",
+    "project": "IntelMausi",
+    "repository": "https://github.com/acidanthera/IntelMausi",
+    "commit": "bde307d3098a787e2fa36df310423161df033224",
+    "executableSHA256": "01de7382c21b827daf24a7e1f88713afc11872664b2906af85afeabc5f6fd7ba",
+    "infoSHA256": "e3ca2e46e3da2600c98f5ae75da02ad996d6c2ebea9abc78e02ee50ed7aa7659",
+    "executableBytes": 168888,
+    "OSBundleLibraries": {
+      "com.apple.iokit.IONetworkingFamily": "1.5.0",
+      "com.apple.iokit.IOPCIFamily": "1.7",
+      "com.apple.kpi.bsd": "8.10.0",
+      "com.apple.kpi.iokit": "8.10.0",
+      "com.apple.kpi.libkern": "8.10.0",
+      "com.apple.kpi.mach": "8.10.0"
+    }
+  },
+  {
+    "bundle": "BlueToolFixup.kext",
+    "version": "2.7.3",
+    "bundleID": "as.acidanthera.BlueToolFixup",
+    "path": "实验/蓝牙-固件已加载但控制器失败/驱动/BlueToolFixup.kext",
+    "status": "模块和固件标记已出现，真实蓝牙控制器失败",
+    "project": "BrcmPatchRAM",
+    "repository": "https://github.com/acidanthera/BrcmPatchRAM",
+    "commit": "65389020769837e92e9fb939bac34bd9a3e25bb2",
+    "executableSHA256": "e11fc0299c230e716fbbb9d2eb6df54c1494338a9201f903bab22c410ff57f0b",
+    "infoSHA256": "2a288565db22a8b46cfbf893a9bd2baa3ba8d32e184aa406f2ff52a487df2f85",
+    "executableBytes": 41336,
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.4.7",
+      "com.apple.kpi.bsd": "12.0.0",
+      "com.apple.kpi.dsep": "12.0.0",
+      "com.apple.kpi.iokit": "12.0.0",
+      "com.apple.kpi.libkern": "12.0.0",
+      "com.apple.kpi.mach": "12.0.0",
+      "com.apple.kpi.unsupported": "12.0.0"
+    }
+  },
+  {
+    "bundle": "IntelBTPatcher.kext",
+    "version": "2.5.0",
+    "bundleID": "com.zxystd.IntelBTPatcher",
+    "path": "实验/蓝牙-固件已加载但控制器失败/驱动/IntelBTPatcher.kext",
+    "status": "模块和固件标记已出现，真实蓝牙控制器失败",
+    "project": "IntelBluetoothFirmware",
+    "repository": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware",
+    "commit": "a414375505fa3b014be32f8fca31b5bbfdf9f10f",
+    "executableSHA256": "441907ed9270e88b1c63f00a9c1d3c08a29ec75f0f1eeec843e47237391ca7ed",
+    "infoSHA256": "fdc14c5cf19f31e958534843c23d907fb560c6f24a4cef402bf99bf8b2045b8c",
+    "executableBytes": 41728,
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOUSBHostFamily": "1.2",
+      "com.apple.kpi.bsd": "12.0.0",
+      "com.apple.kpi.dsep": "12.0.0",
+      "com.apple.kpi.iokit": "12.0.0",
+      "com.apple.kpi.libkern": "12.0.0",
+      "com.apple.kpi.mach": "12.0.0",
+      "com.apple.kpi.unsupported": "12.0.0"
+    }
+  },
+  {
+    "bundle": "IntelBluetoothFirmware.kext",
+    "version": "2.5.0",
+    "bundleID": "com.zxystd.IntelBluetoothFirmware",
+    "path": "实验/蓝牙-固件已加载但控制器失败/驱动/IntelBluetoothFirmware.kext",
+    "status": "模块和固件标记已出现，真实蓝牙控制器失败",
+    "project": "IntelBluetoothFirmware",
+    "repository": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware",
+    "commit": "a414375505fa3b014be32f8fca31b5bbfdf9f10f",
+    "executableSHA256": "615efe4cb8ebd5049cc2f2c9c0e30c0a3d4e1089d44b19b43eab470b6ff9139c",
+    "infoSHA256": "4427df8ad83e9ef5b8e6d6451dfa75a98ac530a83e70fe8aaea7c640028114d5",
+    "executableBytes": 12173984,
+    "OSBundleLibraries": {
+      "com.apple.iokit.IOUSBHostFamily": "1.2",
+      "com.apple.kpi.iokit": "16.7",
+      "com.apple.kpi.libkern": "16.7",
+      "com.apple.kpi.mach": "16.7"
+    }
+  },
+  {
+    "bundle": "IntelMausi-1.0.8-original.kext",
+    "version": "1.0.8",
+    "bundleID": "as.acidanthera.mieze.IntelMausi",
+    "path": "回退参考/IntelMausi-1.0.8-original.kext",
+    "status": "原版回退/补丁输入参考",
+    "project": "IntelMausi",
+    "repository": "https://github.com/acidanthera/IntelMausi",
+    "commit": "bde307d3098a787e2fa36df310423161df033224",
+    "executableSHA256": "dc49b4f6281347044503bd59acd195ead8f0949c84fc4e5add700b5bf1b76200",
+    "infoSHA256": "2b4e03be83f14a2d49cde3469e5b4ff3011fe8e9f3db6bf22e5007c637929a24",
+    "executableBytes": 168888,
+    "OSBundleLibraries": {
+      "com.apple.iokit.IONetworkingFamily": "1.5.0",
+      "com.apple.iokit.IOPCIFamily": "1.7",
+      "com.apple.kpi.bsd": "8.10.0",
+      "com.apple.kpi.iokit": "8.10.0",
+      "com.apple.kpi.libkern": "8.10.0",
+      "com.apple.kpi.mach": "8.10.0"
+    }
+  }
+]

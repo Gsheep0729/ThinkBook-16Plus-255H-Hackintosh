@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "file": "ThinkBook-16Plus-255H-资料与源码-20261111.zip",
+      "bytes": 78755088,
+      "sha256": "85d1a2535df1f98cb9a062d168c50f1b42288035e8cee6e95354fa4ec3beb8e9",
+      "unpackedFiles": 5959,
+      "allBytesRereadMatched": true
+    },
+    {
+      "file": "ThinkBook-16Plus-255H-过程照片-20261111.zip",
+      "bytes": 43386866,
+      "sha256": "a967e0c514f47f0ca0cc5ad4d8fd36de12d0a6b9649cc255a9cb24d810cfc415",
+      "unpackedFiles": 11,
+      "allBytesRereadMatched": true
+    }
+  ],
+  "photosArchiveRequiredForFullManifest": true,
+  "note": "将两份ZIP解压到同一目录再运行完整清单校验；资料包README中的照片链接需照片包。"
+}

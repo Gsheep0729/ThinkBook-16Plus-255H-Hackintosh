@@ -1,0 +1,28 @@
+[
+  {
+    "patch": "IntelMausi-57A1-source.patch",
+    "dryRunExit": 0,
+    "output": "patching file 'IntelMausiEthernet/IntelMausiEthernet.cpp'\npatching file 'IntelMausiEthernet/IntelMausiEthernet-Info.plist'\n"
+  },
+  {
+    "patch": "IntelBluetoothFirmware-0037-BlazarU.patch",
+    "dryRunExit": 0,
+    "output": "patching file 'IntelBluetoothFirmware/Info.plist'\npatching file 'IntelBluetoothFirmware/IntelBluetoothFirmware.cpp'\npatching file 'IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp'\n"
+  },
+  {
+    "test": "Mausi offline patch reproduction",
+    "binaryByteEqual": true,
+    "plistSemanticEqual": true,
+    "defaultToolRunWasReadOnly": true
+  },
+  {
+    "test": "Authored public Python scripts",
+    "syntaxAllPassed": true,
+    "largeDriverRebuildRepeatedThisPublication": false
+  },
+  {
+    "test": "15:03 latest Gen3 source included in combined patch",
+    "dryRunPassed": true,
+    "latestPublishedBinarySHA256": "615efe4cb8ebd5049cc2f2c9c0e30c0a3d4e1089d44b19b43eab470b6ff9139c"
+  }
+]

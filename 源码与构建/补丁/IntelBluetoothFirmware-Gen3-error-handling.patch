@@ -1,0 +1,52 @@
+--- a/IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp
++++ b/IntelBluetoothFirmware/IntelBluetoothOpsGen3.cpp
+@@ -242,9 +242,14 @@
+     IOReturn ior;
+     uint32_t actSize = 0;
+     uint8_t buf[CMD_BUF_MAX_SIZE];
+-    HciResponse *resp = (HciResponse *)buf;
++    struct __attribute__((packed)) SecureSendEvent {
++        HciEventHdr header;
++        uint8_t subevent;
++        IntelSecureSendResult completion;
++    };
++    const SecureSendEvent *event = reinterpret_cast<const SecureSendEvent *>(buf);
+     bool firmwareMode = false;
+-    bool ret = true;
++    bool ret = false;
+     
+     if (!ver || !bootParams) {
+         return false;
+@@ -318,7 +323,7 @@
+      * of this device.
+      */
+     memset(buf, 0, sizeof(buf));
+-    ior = m_pUSBDeviceController->interruptPipeRead(resp, sizeof(buf), &actSize, 5000);
++    ior = m_pUSBDeviceController->interruptPipeRead(buf, sizeof(buf), &actSize, 5000);
+     if (ior != kIOReturnSuccess) {
+         XYLog("waiting for firmware download done timeout\n");
+         resetToBootloader();
+@@ -326,12 +331,19 @@
+         goto done;
+     }
+     
+-    if (resp->evt.evt == 0xff && resp->numCommands == 0x06) {
+-        XYLog("Notify: Firmware download done\n");
++    if (actSize != sizeof(*event) || event->header.evt != 0xff ||
++        event->header.len != sizeof(*event) - sizeof(HciEventHdr) || event->subevent != 0x06) {
++        XYLog("Invalid secure send completion (length %u)\n", actSize);
+         goto done;
+     }
+-    
+-    ret = false;
++    if (event->completion.result != 0) {
++        XYLog("Secure send failed: result 0x%02x status 0x%02x\n",
++              event->completion.result, event->completion.status);
++        goto done;
++    }
++
++    XYLog("Notify: Firmware download done\n");
++    ret = true;
+     
+ done:
+     OSSafeReleaseNULL(fwData);

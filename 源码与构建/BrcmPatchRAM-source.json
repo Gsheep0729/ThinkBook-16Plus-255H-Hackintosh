@@ -1,0 +1,8 @@
+{
+  "project": "BrcmPatchRAM",
+  "repository": "https://github.com/acidanthera/BrcmPatchRAM",
+  "requestedRef": "6538902",
+  "commit": "65389020769837e92e9fb939bac34bd9a3e25bb2",
+  "sourceArchiveURL": "https://codeload.github.com/acidanthera/BrcmPatchRAM/tar.gz/6538902",
+  "sourceArchiveSHA256": "01bb6e8fde8e72953294479ae400acadcd5e422e87edf9d6e01837dfdbac8b8a"
+}

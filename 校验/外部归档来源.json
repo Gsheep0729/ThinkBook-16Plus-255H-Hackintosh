@@ -1,0 +1,31 @@
+[
+  {
+    "name": "1401-Mac-2.6.6.dmg",
+    "url": "https://github.com/nullmoth/nvidia-macos-driver/releases/download/v2.6.6/1401-Mac-2.6.6.dmg",
+    "bytes": 2987103,
+    "historicallyVerifiedSHA256": "9b8876fb63533d7e1b19aaba1a0d210df52f1d214a9f2c36dff6d2dc2d079ca4",
+    "redistributed": false
+  },
+  {
+    "name": "nullmoth-nvidia-2.6.6.tar.gz",
+    "url": "https://github.com/nullmoth/nvidia-macos-driver/releases/download/v2.6.6/nullmoth-nvidia-2.6.6.tar.gz",
+    "bytes": 264205469,
+    "historicallyVerifiedSHA256": "dbb0f5c2a18ccc97dfdf57ca14488b0ea713c15608f684a0a4283e88c676ab6e",
+    "redistributed": false
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-6d8490d/OpenCore-1.0.9-DEBUG.zip",
+    "sha256": "68ac1c968de5122a815cd6f320c7fa6e85cf18002bf7a5499c2d2b0a9bd562ac",
+    "bytes": 11837993
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/IntelBluetoothFirmware-a414375/IntelBluetoothFirmware-2.5.0-RELEASE.zip",
+    "sha256": "53a81964a2f7c2a20c885b8f327b4d427174f322c0094462df33eac8ecdc7ba1",
+    "bytes": 11428635
+  },
+  {
+    "url": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-6538902/BrcmPatchRAM-2.7.3-RELEASE.zip",
+    "sha256": "71a4bdf9d0804f16f4f9a35f5b67288cd680eda44e4347cd60640f2e422299ea",
+    "bytes": 5422645
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "bootTime": "2026-11-04 18:45:40 Asia/Shanghai",
+  "sampleTime": "19:44",
+  "mouseUSBID": "30FA:1440",
+  "usb2HubID": "05E3:0610",
+  "usb3HubID": "05E3:0626",
+  "mousePath": "777D xHCI -> USB2 root port 1 -> Hub port 2 -> mouse",
+  "networkPath": "777D xHCI -> USB3 root port 13 -> Hub port 3 -> RTL8156",
+  "nativeUSBHIDAttached": true,
+  "sameRegistryEntriesAs1919": true,
+  "enumerationAddressOvercurrentErrorsObserved": 0,
+  "mouseResetOrDisconnectObservedThisBoot": false,
+  "sleepEvents": 0,
+  "historicalSymptomOnlyMouseFailedOtherDockDevicesWorked": true,
+  "historicalFailureReproducedThisBoot": false,
+  "historicalLogSearchTimedOutSeconds": 45,
+  "historicalRootCauseConfirmed": false,
+  "historicalProblemFixed": false,
+  "USB2PartialFaultExcludedByWorkingUSB3Network": false,
+  "dedicatedPortMappingComplete": false,
+  "driverOrSettingsChangesInThisAudit": false
+}

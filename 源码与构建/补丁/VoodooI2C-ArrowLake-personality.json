@@ -1,0 +1,15 @@
+{
+  "IOKitPersonalities": {
+    "VoodooI2CPCIArrowLakeController": {
+      "CFBundleIdentifier": "com.alexandred.VoodooI2C",
+      "I2CClkRate": 133000000,
+      "I2CSclFallingTimeNs": 208,
+      "I2CSdaFallingTimeNs": 171,
+      "I2CSdaHoldTimeNs": 42,
+      "IOClass": "VoodooI2CPCIController",
+      "IOPCIMatch": "0x77788086 0x777a8086 0x777b8086",
+      "IOProbeScore": 9999,
+      "IOProviderClass": "IOPCIDevice"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "bundle": "Lilu.kext",
+    "version": "1.7.3",
+    "bundleID": "as.vit9696.Lilu",
+    "path": "驱动/依赖/Lilu.kext",
+    "executableSHA256": "6bc64e6d9e1b4dd1f7c6477365d0b7f14734aa00be76321205e1e7a105d4340b",
+    "infoSHA256": "c35d818b19efeb0c75cf8a38786e24224c73ea720b941d02896b9bbddb370d74",
+    "OSBundleLibraries": {
+      "com.apple.kernel.6.0": "7.9.9",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "AppleALC.kext",
+    "version": "1.9.9",
+    "bundleID": "as.vit9696.AppleALC",
+    "path": "驱动/依赖/AppleALC.kext",
+    "executableSHA256": "21d5ffbf515aba5f9cacf48c0d4bd0b11189cb844133f696f027fd5d7998e9dd",
+    "infoSHA256": "e8735de5d1ae4baeb7c275dfbbd554d6cdc04d962c99e8e1fc4247f9bcff7984",
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOPCIFamily": "1.0.0b1",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "BrightnessKeys.kext",
+    "version": "1.0.4",
+    "bundleID": "as.acidanthera.BrightnessKeys",
+    "path": "驱动/依赖/BrightnessKeys.kext",
+    "executableSHA256": "f47210181030a6005ccb17c125dbe81b359c2c9fd74c12b99b860b8b5f44a72a",
+    "infoSHA256": "f055eb6f0caff1a8c4ccbdccf337a0a177b751050fb0ad4dda3d750d0b1f6d62",
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOACPIFamily": "1.0.0d1",
+      "com.apple.iokit.IOHIDFamily": "1.0.0b1",
+      "com.apple.kpi.bsd": "8.0.0",
+      "com.apple.kpi.iokit": "8.0.0",
+      "com.apple.kpi.libkern": "8.0.0",
+      "com.apple.kpi.mach": "8.0.0",
+      "com.apple.kpi.unsupported": "8.0.0"
+    }
+  },
+  {
+    "bundle": "VoodooI2C.kext",
+    "version": "2.9.1",
+    "bundleID": "com.alexandred.VoodooI2C",
+    "path": "驱动/已验收基础功能/VoodooI2C.kext",
+    "executableSHA256": "550542707843d34df8ce7ae31c4f54c9c1fed6966d2eee2605188fb77abff5c9",
+    "infoSHA256": "d1f0dfa816c1da46719b22a822eee509f79d2100bc9ebaa43b486e624c329612",
+    "OSBundleLibraries": {
+      "com.alexandred.VoodooI2CServices": "1.0",
+      "com.apple.iokit.IOACPIFamily": "1.4",
+      "com.apple.iokit.IOHIDFamily": "2.0",
+      "com.apple.iokit.IOPCIFamily": "2.9",
+      "com.apple.kpi.bsd": "8.0",
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14",
+      "com.apple.kpi.mach": "14",
+      "org.coolstar.VoodooGPIO": "1.1"
+    }
+  },
+  {
+    "bundle": "VoodooI2CHID.kext",
+    "version": "1",
+    "bundleID": "com.alexandred.VoodooI2CHID",
+    "path": "驱动/已验收基础功能/VoodooI2CHID.kext",
+    "executableSHA256": "2e629ea4422414e0f81f1df47d320973f37e922c203a43e65df53e1df39af432",
+    "infoSHA256": "a968984eaeb0caf782c388baf4a05445e8da9214792e72f32859a8b3468cccf4",
+    "OSBundleLibraries": {
+      "com.alexandred.VoodooI2C": "2.0",
+      "com.apple.iokit.IOACPIFamily": "1.4",
+      "com.apple.iokit.IOHIDFamily": "2.0",
+      "com.apple.kpi.iokit": "14",
+      "com.apple.kpi.libkern": "14",
+      "com.apple.kpi.mach": "13.0"
+    }
+  },
+  {
+    "bundle": "IntelMausi.kext",
+    "version": "1.0.8",
+    "bundleID": "as.acidanthera.mieze.IntelMausi",
+    "path": "驱动/部分通过/IntelMausi.kext",
+    "executableSHA256": "01de7382c21b827daf24a7e1f88713afc11872664b2906af85afeabc5f6fd7ba",
+    "infoSHA256": "e3ca2e46e3da2600c98f5ae75da02ad996d6c2ebea9abc78e02ee50ed7aa7659",
+    "OSBundleLibraries": {
+      "com.apple.iokit.IONetworkingFamily": "1.5.0",
+      "com.apple.iokit.IOPCIFamily": "1.7",
+      "com.apple.kpi.bsd": "8.10.0",
+      "com.apple.kpi.iokit": "8.10.0",
+      "com.apple.kpi.libkern": "8.10.0",
+      "com.apple.kpi.mach": "8.10.0"
+    }
+  },
+  {
+    "bundle": "AirportItlwm.kext",
+    "version": "1.0.0",
+    "bundleID": "com.zxystd.AirportItlwm",
+    "path": "驱动/部分通过/AirportItlwm.kext",
+    "executableSHA256": "fbfad901a222e6190971fab323cecedf65dc48ad848c6153e801804c9939edb9",
+    "infoSHA256": "685187cb520450bf810df52b1142f5d2fe2563f9a23f473b163e124afe12a123",
+    "OSBundleLibraries": {
+      "com.apple.driver.corecapture": "1.0.0",
+      "com.apple.iokit.IO80211Family": "1.5.0",
+      "com.apple.iokit.IONetworkingFamily": "3.2",
+      "com.apple.iokit.IOPCIFamily": "2.9",
+      "com.apple.iokit.IOSkywalkFamily": "1.0",
+      "com.apple.kpi.bsd": "16.7",
+      "com.apple.kpi.iokit": "16.7",
+      "com.apple.kpi.libkern": "16.7",
+      "com.apple.kpi.mach": "16.7"
+    }
+  },
+  {
+    "bundle": "IntelBluetoothFirmware.kext",
+    "version": "2.5.0",
+    "bundleID": "com.zxystd.IntelBluetoothFirmware",
+    "path": "实验/蓝牙-待重启/驱动/IntelBluetoothFirmware.kext",
+    "executableSHA256": "4b9551618c54ef006e1ac624e7a9a8fc117db151d25d9989dad5987ad510f6ea",
+    "infoSHA256": "4427df8ad83e9ef5b8e6d6451dfa75a98ac530a83e70fe8aaea7c640028114d5",
+    "OSBundleLibraries": {
+      "com.apple.iokit.IOUSBHostFamily": "1.2",
+      "com.apple.kpi.iokit": "16.7",
+      "com.apple.kpi.libkern": "16.7",
+      "com.apple.kpi.mach": "16.7"
+    }
+  },
+  {
+    "bundle": "IntelBTPatcher.kext",
+    "version": "2.5.0",
+    "bundleID": "com.zxystd.IntelBTPatcher",
+    "path": "实验/蓝牙-待重启/驱动/IntelBTPatcher.kext",
+    "executableSHA256": "441907ed9270e88b1c63f00a9c1d3c08a29ec75f0f1eeec843e47237391ca7ed",
+    "infoSHA256": "fdc14c5cf19f31e958534843c23d907fb560c6f24a4cef402bf99bf8b2045b8c",
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.2.0",
+      "com.apple.iokit.IOUSBHostFamily": "1.2",
+      "com.apple.kpi.bsd": "12.0.0",
+      "com.apple.kpi.dsep": "12.0.0",
+      "com.apple.kpi.iokit": "12.0.0",
+      "com.apple.kpi.libkern": "12.0.0",
+      "com.apple.kpi.mach": "12.0.0",
+      "com.apple.kpi.unsupported": "12.0.0"
+    }
+  },
+  {
+    "bundle": "BlueToolFixup.kext",
+    "version": "2.7.3",
+    "bundleID": "as.acidanthera.BlueToolFixup",
+    "path": "实验/蓝牙-待重启/驱动/BlueToolFixup.kext",
+    "executableSHA256": "e11fc0299c230e716fbbb9d2eb6df54c1494338a9201f903bab22c410ff57f0b",
+    "infoSHA256": "2a288565db22a8b46cfbf893a9bd2baa3ba8d32e184aa406f2ff52a487df2f85",
+    "OSBundleLibraries": {
+      "as.vit9696.Lilu": "1.4.7",
+      "com.apple.kpi.bsd": "12.0.0",
+      "com.apple.kpi.dsep": "12.0.0",
+      "com.apple.kpi.iokit": "12.0.0",
+      "com.apple.kpi.libkern": "12.0.0",
+      "com.apple.kpi.mach": "12.0.0",
+      "com.apple.kpi.unsupported": "12.0.0"
+    }
+  }
+]

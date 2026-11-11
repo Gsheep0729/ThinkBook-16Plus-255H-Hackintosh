@@ -1,0 +1,136 @@
+{
+  "原源码": {
+    "valid": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "payload IO error": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 1
+    },
+    "signature rejected": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "truncated at subevent": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "declared length incorrect": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "oversized event": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "different event": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "different subevent": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "read timeout": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 1
+    },
+    "running same version": {
+      "setup": true,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "running missing file": {
+      "setup": true,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "bootloader missing file": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "too short file": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    }
+  },
+  "候选源码": {
+    "valid": {
+      "setup": true,
+      "intelBoot": 1,
+      "reset": 0
+    },
+    "payload IO error": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 1
+    },
+    "signature rejected": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "truncated at subevent": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "declared length incorrect": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "oversized event": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "different event": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "different subevent": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "read timeout": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 1
+    },
+    "running same version": {
+      "setup": true,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "running missing file": {
+      "setup": true,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "bootloader missing file": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    },
+    "too short file": {
+      "setup": false,
+      "intelBoot": 0,
+      "reset": 0
+    }
+  }
+}

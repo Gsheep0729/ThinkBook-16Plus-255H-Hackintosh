@@ -1,0 +1,16 @@
+{
+  "asOf": "2026-11-04 20:46 Asia/Shanghai",
+  "touchpadGesturesUserReportedUsable": true,
+  "allAdvancedGesturesIndividuallyVerified": false,
+  "touchpadPointerDriftResolved": false,
+  "cameraUserSuspectsUnavailable": true,
+  "microphoneUserSuspectsUnavailable": true,
+  "cameraMicrophoneRootCauseConfirmed": false,
+  "OCATCandidateApplied": false,
+  "OCATLegacyDatabaseExtraFieldChanges": 16,
+  "identityCandidateRedistributed": false,
+  "readOnlyEFIComparedWith1605Archive": true,
+  "comparedFiles": 218,
+  "allFilesIdentical": true,
+  "actualConfigSHA256": "9d31f08223056f81197f64081736e5b9092120f2722ad53342e6d170af35b1c1"
+}

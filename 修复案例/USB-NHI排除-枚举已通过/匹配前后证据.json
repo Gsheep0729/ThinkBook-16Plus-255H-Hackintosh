@@ -1,0 +1,52 @@
+{
+  "target": "OC/Kexts/UTBDefault.kext/Contents/Info.plist",
+  "beforeSHA256": "e831e8bc5b05d8ca6283909413368e1e5f12d7cd8473600fa3b9cc634157582a",
+  "afterSHA256": "638e255663b3c16a7dee86597654f2294f447ae3bc1d75032656cfaaaad2131a",
+  "change": "IOKitPersonalities.XHC1.IOPCIClassMatch",
+  "old": "0x0c030000&0xffff0000",
+  "new": "0x0c030000&0xffffff00 0x0c031000&0xffffff00 0x0c032000&0xffffff00 0x0c033000&0xffffff00",
+  "physicalPCIEntriesChecked": 30,
+  "allOtherSemanticsEqual": true,
+  "matchedControllers": [
+    {
+      "name": "TXHC",
+      "id": "8086:7ec0",
+      "class": "0c0330",
+      "class_register": "0c033010",
+      "before": true,
+      "after": true,
+      "UTBVersion": "REL-Jun 13 2025-15:09:49",
+      "providerChildren": [
+        "AppleUSBXHCIPCI"
+      ]
+    },
+    {
+      "name": "TDM1",
+      "id": "8086:7ec3",
+      "class": "0c0340",
+      "class_register": "0c034010",
+      "before": true,
+      "after": false,
+      "UTBVersion": "REL-Jun 13 2025-15:09:49",
+      "providerChildren": [
+        "USBToolBox"
+      ]
+    },
+    {
+      "name": "pci8086,777d",
+      "id": "8086:777d",
+      "class": "0c0330",
+      "class_register": "0c033000",
+      "before": true,
+      "after": true,
+      "UTBVersion": "REL-Jun 13 2025-15:09:49",
+      "providerChildren": [
+        "AppleUSBXHCIPCI"
+      ]
+    }
+  ],
+  "rootPortChecksAfterReboot": {
+    "7ec0": 5,
+    "777d": 14
+  }
+}

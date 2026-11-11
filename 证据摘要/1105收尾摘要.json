@@ -1,0 +1,19 @@
+{
+  "asOf": "2026-11-05",
+  "boot": "20:20:42 Asia/Shanghai",
+  "model": "MacPro7,1",
+  "identityLoadedMatched": true,
+  "realIdentityIncluded": false,
+  "archivedConfigSHA256": "79665d052ccb1237dba6c4b5440046927aa68eaadadb97876d26266c99a7335d",
+  "volumeFiles": 356,
+  "EFIFiles": 222,
+  "liveDiskRereadAtNewBoot": false,
+  "GPUVersionLastFullyVerified": "2.6.6",
+  "GPU271InstalledVerified": false,
+  "bluetoothWorking": false,
+  "touchpadDriftResolved": false,
+  "G502UserAccelerationAdjustmentResolvedMovement": true,
+  "sleepVerified": false,
+  "UbuntuQuadBootCancelledAndRolledBack": true,
+  "WindowsF12Verified": false
+}

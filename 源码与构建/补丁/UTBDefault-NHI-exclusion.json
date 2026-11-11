@@ -1,0 +1,6 @@
+{
+  "property": "IOKitPersonalities/XHC1/IOPCIClassMatch",
+  "before": "0x0c030000&0xffff0000",
+  "after": "0x0c030000&0xffffff00 0x0c031000&0xffffff00 0x0c032000&0xffffff00 0x0c033000&0xffffff00",
+  "note": "Only a PCI class matching example, not a port map; pending reboot."
+}

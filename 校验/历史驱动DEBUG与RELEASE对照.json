@@ -1,0 +1,126 @@
+[
+  {
+    "asset": "Lilu-0515f40_Lilu-1.7.3-RELEASE.zip",
+    "sha256": "261aebb9dc83adb6515c96405653f53c3c50b09c89babdb91fb41f7b33a1cd2a",
+    "comparisons": [
+      {
+        "binary": "Lilu",
+        "matchesAnyOriginal": false
+      }
+    ]
+  },
+  {
+    "asset": "VoodooI2C-5c0c99c_release.zip",
+    "sha256": "2347e42fb09f2386b47f4c02b265441bc5f3cf344d1ff168daed93a6b6c411e3",
+    "comparisons": [
+      {
+        "binary": "VoodooI2CAtmelMXT",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CSynaptics",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CHID",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CFTE",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CELAN",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2C",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooGPIO",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CServices",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooInput",
+        "matchesAnyOriginal": false
+      }
+    ]
+  },
+  {
+    "asset": "Lilu-0515f40_Lilu-1.7.3-DEBUG.zip",
+    "sha256": "d7223d5084c00f73b836f37350b1e606a0061fe03f00af955b97339326b2d9af",
+    "comparisons": [
+      {
+        "binary": "Lilu",
+        "matchesAnyOriginal": false
+      }
+    ]
+  },
+  {
+    "asset": "VoodooInput-d897813_VoodooInput-1.1.7-DEBUG.zip",
+    "sha256": "3eba5db8bc7cc90b3342824e27d2d1b17e3f65598def623ee772490965a9b49b",
+    "comparisons": [
+      {
+        "binary": "VoodooInput",
+        "matchesAnyOriginal": false
+      }
+    ]
+  },
+  {
+    "asset": "VoodooI2C-5c0c99c_debug.zip",
+    "sha256": "5f42503ae9afa501e0e023aefc7c65356b21cae0846bd85096abce441aa899c8",
+    "comparisons": [
+      {
+        "binary": "VoodooI2CAtmelMXT",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CSynaptics",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CHID",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CFTE",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CELAN",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2C",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooGPIO",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooI2CServices",
+        "matchesAnyOriginal": false
+      },
+      {
+        "binary": "VoodooInput",
+        "matchesAnyOriginal": false
+      }
+    ]
+  },
+  {
+    "asset": "VoodooInput-d897813_VoodooInput-1.1.7-RELEASE.zip",
+    "sha256": "5a30a642afc59c7c87a11fc7d9c4d76509b059fa01fd3e058bd999fb30a76d65",
+    "comparisons": [
+      {
+        "binary": "VoodooInput",
+        "matchesAnyOriginal": false
+      }
+    ]
+  }
+]

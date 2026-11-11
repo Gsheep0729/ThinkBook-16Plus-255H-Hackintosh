@@ -1,0 +1,26 @@
+[
+  {
+    "source": "ACPI/已验收基础功能/SSDT-PNLF.dsl",
+    "exitCode": 0,
+    "length": 110,
+    "byteEqualPublished": true,
+    "bodyEqualPublished": true,
+    "checksumOK": true
+  },
+  {
+    "source": "ACPI/触控板-已接管但跳动/SSDT-TPI0.dsl",
+    "exitCode": 0,
+    "length": 264,
+    "byteEqualPublished": true,
+    "bodyEqualPublished": true,
+    "checksumOK": true
+  },
+  {
+    "source": "修复案例/音频-内置扬声器已通过/ACPI/SSDT-HDA0.dsl",
+    "exitCode": 0,
+    "length": 246,
+    "byteEqualPublished": true,
+    "bodyEqualPublished": true,
+    "checksumOK": true
+  }
+]
